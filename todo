@@ -1,0 +1,21 @@
+Conjugations:
+Figure out how to format response: right now i think it makes sense to make it arbitrarily sized matrices
+    these arbitrary matrices will have associated meta data that will be diplayed in anki
+    to do this:
+        1. determine how to count number of matrices
+        2. convert json's containing the conugations to dataframes and then use .to_html (add tense and conditional and lines)
+        4. consider finding a way to prioritize them
+Other:
+choose between figuring out espeak, keep trying reverse, or somehow integrate the mac add on
+figure out if reverso will distill a word down to its base form to use that as the main card?
+can at least get conjugation, aspect, and base form for verbs from conjugation endpoint by scraping
+get all grammar data
+get conjugations/full case endings (add as a picture to conjugation field)
+
+implement crawling main that takes in my file and slowly starts uploading to anki
+
+long term -
+setup this to run permanently as a RESTFul API on rpi that we can ping from a translation shortcut on our phones to get a quick translation and create fully featured card
+needs a switch user ability (already built in to anki connect) so that I can change between mine and maggie's accounts on the anki client which has to be open always on the rpi
+some way to make the whole thing audio based? reverse engineer the api that provides Ankiweb with my responses?
+
