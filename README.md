@@ -1,4 +1,4 @@
-#Russian_vocab
+# Russian_vocab
 My library for automatically generating an Anki deck from a CSV.
 
 
